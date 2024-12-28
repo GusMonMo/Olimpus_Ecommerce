@@ -1,0 +1,17 @@
+Font: Xanh Mono (Logo)
+
+import { Xanh_Mono } from 'next/font/google'
+
+const xanh_mono = Xanh_Mono({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-logo'
+})
+
+Font: Hepta Slab
+
+import { Hepta_Slab } from 'next/font/google'
+ 
+const hepta_slab = Hepta_Slab({
+  subsets: ['latin'],
+})

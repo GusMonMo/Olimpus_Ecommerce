@@ -1,0 +1,28 @@
+.Burocracias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    .Burocracias > h1{
+        font-size: 2.5vw;
+        letter-spacing: 0.05vw;
+        padding: 2vw;
+    }
+
+    .Burocracias > h3{
+        font-size: 1.5vw;
+        letter-spacing: 0.05vw;
+        width: 70vw;
+        padding: 2vw;
+    }
+
+    .Burocracias > h4{
+        font-size: 0.8vw;
+        font-weight: 700;
+        color: red;
+        letter-spacing: 0.05vw;
+        width: 70vw;
+        padding: 2vw;
+    }

@@ -1,0 +1,46 @@
+
+.carouselSpace{
+    height: 40vw;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carouselContainer{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    gap: 2vw;
+    height: 40vw;
+}
+
+.carouselSlide{
+    flex: 0 0 100%;
+    max-width: 25vw;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    margin: 2vw;
+}
+
+.carouselSlide:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.carouselSlideLetter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5vw;
+}
+
+.carouselSlideLetter > h3, h4{
+        font-size: 1.5vw;
+        letter-spacing: 0.05vw;
+}
+
+.carouselSlideImage{
+    height: 30vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

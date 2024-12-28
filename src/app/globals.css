@@ -1,0 +1,121 @@
+:root{
+  --primary: #1A2433;
+  --secondary: #B39A40;
+  --fundo: #d2d2d2;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  user-select: none;
+}
+
+body{
+  background-color: var(--fundo);
+}
+
+main{
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.fab {
+  position: fixed;
+  bottom: 4vw;
+  right: 4vw;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+  background-image: url('../../public/Images/LogoIcon.png');
+  background-position: center;
+  background-size: 190%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+  z-index: 10;
+}
+
+.fab:hover{
+  transform: scale(1.1);
+  box-shadow: 1vw 1vw 3vw rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.modalButton{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+  border-radius: 50 50 50 50;
+  width: 8vw;
+  height: 3vw;
+  background: black;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.5s ease, background-color 0.3s ease;
+
+}
+
+.modalButton:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+
+.OlimpusIcon{
+  background-image: url("../../public/Images/LogoOlimpus.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 2vw;
+}
+
+.logo{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction:row;
+  align-items: center;
+}
+
+.title{
+  font-size: 2vw;
+  font-weight: 700;
+  padding: 2vw;
+  letter-spacing: 0.1vw;
+  margin-left: 35vw;
+}
+
+.Banner{
+  height: 30vw;
+  background-size: cover;
+  background-position: center;
+}
+
+.Top{
+  background-image: url('../../public/Images/Banner1.png');
+}
+
+.Bottom{
+  background-image: url('../../public/Images/Banner2.png');
+}
+
+.CarouselSpace{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: relative;
+  height: 55vw;
+}
+
+  .CarouselSpace > h2{
+    padding: 3vw;
+    font-size: 2vw;
+    font-weight: 700;
+    letter-spacing: 0.1vw;
+    margin-left: 4vw;
+  }

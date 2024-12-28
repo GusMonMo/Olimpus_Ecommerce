@@ -1,0 +1,66 @@
+.footer{
+    height: 27vw;
+    width: 100%;
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10vw;
+}
+
+.linksFooter{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 1vw;
+}
+    .linksFooter > h3{
+        font-weight: 300;
+        font-size: 1.5vw;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+    .linksFooter > h3:hover{
+        color: var(--secondary);
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+.contactFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    color: white;
+    font-weight: 300;
+}
+.Icon{
+    width: 4vw;
+    height: 4vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.containerContact{
+    display: flex;
+    flex-direction:  row; 
+    align-items: center;
+    gap: 1vw;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.containerContact > h3{
+    font-weight: 300;
+    font-size: 2.2vw;
+}
+
+.containerContact:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.instagramIcon{
+    background-image: url('../../../../public/Images/IconInstagram.png');
+}
+
+.phoneIcon{
+    background-image: url('../../../../public/Images/Telefone.png');
+}

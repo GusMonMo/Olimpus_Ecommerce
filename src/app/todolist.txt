@@ -1,0 +1,7 @@
+Em criação{
+    Floating Action Button
+}
+To do{
+    Verificar se é possível automatizar criação de páginas de produtos -> Sobrecarga em requesições a api
+    
+}
